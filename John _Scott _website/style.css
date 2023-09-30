@@ -26,8 +26,31 @@ button{
     justify-content: space-between;
 }
 .sec-3{
-    background-color: grey;
-    border-radius: 5px;
+    background-color: rgb(106, 113, 145);
+    border-radius: 10px;
     border: 1px;
-    padding: 3px 20px;
+    padding: 20px 20px;
+}
+div p{
+    text-align: justify;
+}
+#about{
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+footer h2, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-square-facebook, .fa-square-instagram, .fa-square-whatsapp, .fa-phone, .fa-linkedin{
+    color: white;
+    font-size: 25px;
+    padding: auto;
+    
+}
+.icon{
+    margin-left: 45%;
 }
